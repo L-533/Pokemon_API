@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: #1d1d1d;
+	background: linear-gradient(to bottom, #7927b2, #fb3182);
+	background-attachment: fixed; 
+	margin: 0; 
+	padding: 0; 
+	min-height: 100vh; 
+}
+
+/*Barra de navegacion*/
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #17202A;  
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar li a:hover {
+  background-color: #111;
+}
+
+/*Formulario*/
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #48C9B0;
+}
+/*Fin formulario*/ 
+
+h2{
+	text-align: center;
+	color: black;  
+	font-size: 35px;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+}
+
+.container {
+	width: 100%; 
+	max-width: 800px; 
+	margin: 0 auto; 
+	align-items: center;
+	justify-content: center;
+	padding: 5px; 
+	box-sizing: border-box; 
+    display: flex;    
+}
+
+.pokemon-card {
+	border-radius: 8px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+	width: 300px;	
+	background: #BFC9CA;	
+	padding: 10px;
+    margin: 10px;
+    text-align: left;    
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,137 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: #1d1d1d;
+	background: linear-gradient(to bottom, #7927b2, #fb3182);
+	background-attachment: fixed; 
+	margin: 0; 
+	padding: 0; 
+	min-height: 100vh; 	
+}
+
+/*Barra de navegacion*/
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #17202A;  
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li:nth-last-child(-n+1) {
+  float: right;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar li a:hover {
+  background-color: #111;
+}
+
+.navbar li a.no-hover{
+	color:yellow;
+}
+
+.navbar li a.no-hover:hover {
+  background-color: initial; 
+}
+/*Fin barra de navegacion*/
+
+h2{
+	text-align: center;
+	color: black;  
+	font-size: 35px;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+}
+
+.container {
+	width: 100%; 
+	max-width: 800px; 
+	margin: 0 auto; 
+	align-items: center;
+	justify-content: center;
+	padding: 5px; 
+	box-sizing: border-box; 
+}
+
+.pokemon-card {
+	background: #BFC9CA;	
+	border-radius: 30px; 
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 3px black;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container {
+	background: white;
+	border-radius: 30px; 
+	overflow: hidden; 
+	margin-right: 20px;
+	margin-left: 20px;
+	text-align: center;
+}   
+
+.pokemon-image {
+	background: white;
+	max-width: 100%; 
+  	height: auto;	
+}
+
+.data-card {
+	margin-top: 40px;
+	margin-right: 20px;
+	margin-left: 20px;
+	display: grid; 
+	grid-template-columns: 1fr 1fr; 
+	gap: 10px; 
+	border: 2px solid #E3E3E3;
+}
+
+.left-column {
+  text-align: right;  
+}
+
+.right-column {
+  text-align: left;   
+}
+
+.left-column p,
+.right-column p {
+  border-bottom: 1px solid #E3E3E3; 
+  padding: 4px 0; 
+}
+
+.left-column .disable-style,
+.right-column .disable-style {
+  border-bottom: none;
+}
+
+
+
+
+
+
+
+     
+
