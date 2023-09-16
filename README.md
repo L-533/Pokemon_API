@@ -10,6 +10,7 @@ Index:
 
  <br/>
 Pokemom details:
+
 ![Captura pokemonDetails](https://github.com/L-533/Pokemon_API/assets/98188267/d70e4bc0-84ef-43b5-a3c6-f95cba971526)
 
 
