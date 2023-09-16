@@ -5,9 +5,10 @@ Technologies used: PHP, Javascript,HTML,CSS. <br/>
 Database manager used: pgadmin. <br/>
 It has a responsive design. <br/>
 
-![Captura index](https://github.com/L-533/Pokemon_API/assets/98188267/3bbae5bf-cb2c-430e-bed3-529d90b7f599)
+![Captura index](https://github.com/L-533/Pokemon_API/assets/98188267/04aa51b4-3731-4d59-9580-9f49de791245)
+
  <br/>
  
-![Captura pokemonDetails](https://github.com/L-533/Pokemon_API/assets/98188267/fa4022d0-f2b1-4cad-9fc8-35e71ecbc410)
+![Captura pokemonDetails](https://github.com/L-533/Pokemon_API/assets/98188267/d70e4bc0-84ef-43b5-a3c6-f95cba971526)
 
 
